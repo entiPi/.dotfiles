@@ -7,3 +7,6 @@
 [submodule ".tmux/plugins/tmux-statusline-themes"]
 	path = .tmux/plugins/tmux-statusline-themes
 	url = https://git::@github.com/kabanovdmitry/tmux-statusline-themes
+[submodule ".vim"]
+	path = .vim
+	url = https://github.com/entiPi/.vim.git
