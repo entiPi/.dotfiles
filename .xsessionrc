@@ -1,0 +1,4 @@
+#!/bin/sh
+
+setxkbmap ch -option caps:escape
+xinput --disable "SynPS/2 Synaptics TouchPad"
