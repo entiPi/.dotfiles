@@ -31,6 +31,7 @@ bindsym $mod+Shift+q kill
 
 # start rofi (dmenu replacement)
 bindsym $mod+d exec --no-startup-id rofi -lines 10 -show run
+bindsym $mod+u exec --no-startup-id rofi -lines 10 -dmenu -input ~/.symbols.txt | cut -d' ' -f1 -z | xclip
 
 # rename current workspace
 bindsym $mod+Shift+n exec i3-input -F 'rename workspace to "%s"' -P 'rename to: '
