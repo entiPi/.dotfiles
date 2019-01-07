@@ -48,3 +48,6 @@ alias mountshares="sudo /usr/local/bin/mountshares"
 ## misc
 alias git-base="git rev-parse --show-toplevel 2> /dev/null"
 alias wakemonitor='wakemonitor.sh DP1-2'
+
+## mkdir shortcuts
+mkcdir() { mkdir "$1" && cd "$1"; }
