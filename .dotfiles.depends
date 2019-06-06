@@ -1,0 +1,8 @@
+- ubuntu 18.04:
+  - dpkg:
+    - rofi
+    - xclip
+    - i3wm
+    - vim
+    - git
+    - thefuck
