@@ -48,5 +48,9 @@ alias mountshares="sudo /usr/local/bin/mountshares"
 ## misc
 alias git-base="git rev-parse --show-toplevel 2> /dev/null"
 
+## add aliases for thefuck
+eval $(/usr/bin/thefuck --alias fuck)
+eval $(/usr/bin/thefuck --alias please)
+
 ## mkdir shortcuts
 mkcdir() { mkdir "$1" && cd "$1"; }
