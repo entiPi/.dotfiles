@@ -69,6 +69,8 @@ __dir()
 {
   d=`pwd`
 
+  d=${d/"/home/tm"/"~"}
+  d=${d/"/home/thomas"/"~"}
   d=${d/"/home/meistet3"/"~"}
   d=${d/"/home/users/meistet3"/"~"}
   d=${d/"~/homes/wheezy-i386"/"≈"}
