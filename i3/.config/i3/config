@@ -150,6 +150,8 @@ bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 
+bindsym $mod+x exec i3lock --color=$(openssl rand -hex 3)
+
 # show urgent workspace in red
 client.urgent #2f343a #900000 #ffffff #900000
 
