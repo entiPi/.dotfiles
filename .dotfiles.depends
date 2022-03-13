@@ -1,5 +1,6 @@
 - ubuntu 18.04:
   - dpkg:
+    - stow
     - rofi
     - xclip
     - i3wm

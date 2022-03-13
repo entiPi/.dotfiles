@@ -29,9 +29,6 @@ recseldir()
   fi
 }
 
-## .dotfiles sync
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-
 ## container
 alias lxc-ls="sudo lxc-ls"
 alias lxc-info="sudo lxc-info"
