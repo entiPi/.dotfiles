@@ -7399,3 +7399,4 @@ z latin small letter z                                       	 Basic Latin
 🦃 turkey                                                     	 Supplemental Symbols and Pictographs
 🦄 unicorn face                                               	 Supplemental Symbols and Pictographs
 🧀 cheese wedge                                               	 Supplemental Symbols and Pictographs
+🏎️ formula one                                                	 Supplemental Symbols and Pictographs
