@@ -84,6 +84,9 @@ bindsym $mod+Shift+space floating toggle
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
 
+# scratchpad
+bindsym $mod+shift+dead_circumflex move scratchpad
+bindsym $mod+shift+apostrophe scratchpad show
 
 # hierarchical focus
 bindsym $mod+a focus parent
