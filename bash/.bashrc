@@ -73,9 +73,10 @@ __dir()
   d=${d/"/home/thomas"/"~"}
   d=${d/"/home/meistet3"/"~"}
   d=${d/"/home/users/meistet3"/"~"}
-  d=${d/"~/homes/wheezy-i386"/"≈"}
-  d=${d/"~/homes/jessie-i386"/"≈"}
-  d=${d/"~/homes/jessie-amd64"/"≈"}
+  d=${d/"~/homes"/"≈"}
+  #d=${d/"~/homes/stretch-i386"/"≈"}
+  #d=${d/"~/homes/jessie-i386"/"≈"}
+  #d=${d/"~/homes/jessie-amd64"/"≈"}
   echo -n "$d"
 }
 if [ "$color_prompt" = yes ]; then
