@@ -1,10 +1,10 @@
-[submodule ".tmux/plugins/tpm"]
+[submodule "tmux/.tmux/plugins/tpm"]
 	path = tmux/.tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
-[submodule ".tmux/plugins/tmux-sensible"]
+[submodule "tmux/.tmux/plugins/tmux-sensible"]
 	path = tmux/.tmux/plugins/tmux-sensible
 	url = https://git::@github.com/tmux-plugins/tmux-sensible
-[submodule ".tmux/plugins/tmux-statusline-themes"]
+[submodule "tmux/.tmux/plugins/tmux-statusline-themes"]
 	path = tmux/.tmux/plugins/tmux-statusline-themes
 	url = https://git::@github.com/kabanovdmitry/tmux-statusline-themes
 [submodule "tmux/.tmux/plugins/tmux-continuum"]
@@ -13,6 +13,84 @@
 [submodule "tmux/.tmux/plugins/tmux-resurrect"]
 	path = tmux/.tmux/plugins/tmux-resurrect
 	url = https://github.com/tmux-plugins/tmux-resurrect.git
-[submodule ".vim"]
-	path = vim/.vim
-	url = https://github.com/entiPi/.vim.git
+[submodule "vim/.vim/pack/colorschemes/opt/vim-colors-solarized"]
+	path = vim/.vim/pack/colorschemes/opt/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
+[submodule "vim/.config/.vim/pack/general/start/vim-airline"]
+	path = vim/.vim/pack/general/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "vim/.config/.vim/pack/general/start/vim-airline-themes"]
+	path = vim/.vim/pack/general/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "vim/.config/.vim/pack/general/start/nerdcommenter"]
+	path = vim/.vim/pack/general/start/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter
+[submodule "vim/.config/.vim/pack/programming/start/taglist.vim"]
+	path = vim/.vim/pack/programming/start/taglist.vim
+	url = https://github.com/vim-scripts/taglist.vim
+[submodule "vim/.config/.vim/pack/programming/start/YouCompleteMe"]
+	path = vim/.vim/pack/programming/start/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe
+[submodule "vim/.config/.vim/pack/programming/start/ale"]
+	path = vim/.vim/pack/programming/start/ale
+	url = https://github.com/w0rp/ale
+[submodule "vim/.config/.vim/pack/general/start/ctrlp.vim"]
+	path = vim/.vim/pack/general/start/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "vim/.config/.vim/pack/python/start/python-mode"]
+	path = vim/.vim/pack/python/start/python-mode
+	url = https://github.com/python-mode/python-mode
+[submodule "vim/.config/.vim/pack/general/start/vim-fugitive"]
+	path = vim/.vim/pack/general/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "vim/.config/.vim/pack/general/start/webapi-vim"]
+	path = vim/.vim/pack/general/start/webapi-vim
+	url = https://github.com/mattn/webapi-vim
+[submodule "vim/.config/.vim/pack/general/start/gist-vim"]
+	path = vim/.vim/pack/general/start/gist-vim
+	url = https://github.com/mattn/gist-vim
+[submodule "vim/.config/.vim/pack/general/start/vim-table-mode"]
+	path = vim/.vim/pack/general/start/vim-table-mode
+	url = https://github.com/dhruvasagar/vim-table-mode
+[submodule "vim/.config/.vim/pack/programming/start/plantuml-syntax"]
+	path = vim/.vim/pack/programming/start/plantuml-syntax
+	url = https://github.com/aklt/plantuml-syntax
+[submodule "vim/.config/.vim/pack/general/start/fzf.vim"]
+	path = vim/.vim/pack/general/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "vim/.config/.vim/pack/python/start/vim-isort"]
+	path = vim/.vim/pack/python/start/vim-isort
+	url = https://github.com/fisadev/vim-isort
+[submodule "vim/.config/.vim/pack/writing/start/goyo.vim"]
+	path = vim/.vim/pack/writing/start/goyo.vim
+	url = https://github.com/junegunn/goyo.vim
+[submodule "vim/.config/.vim/pack/writing/start/limelight.vim"]
+	path = vim/.vim/pack/writing/start/limelight.vim
+	url = https://github.com/junegunn/limelight.vim
+[submodule "vim/.config/.vim/pack/general/start/localvimrc"]
+	path = vim/.vim/pack/general/start/localvimrc
+	url = https://github.com/vim-scripts/localvimrc
+[submodule "vim/.config/.vim/pack/rust/start/rust.vim"]
+	path = vim/.vim/pack/rust/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim
+[submodule "vim/.config/.vim/pack/general/start/vim-toml"]
+	path = vim/.vim/pack/general/start/vim-toml
+	url = https://github.com/cespare/vim-toml
+[submodule "vim/.config/.vim/pack/general/start/file-line"]
+	path = vim/.vim/pack/general/start/file-line
+	url = https://github.com/bogado/file-line
+[submodule "vim/.config/.vim/pack/programming/start/xml.vim"]
+	path = vim/.vim/pack/programming/start/xml.vim
+	url = https://github.com/othree/xml.vim
+[submodule "vim/.config/.vim/pack/general/start/ricofile.vim"]
+	path = vim/.vim/pack/general/start/ricofile.vim
+	url = git@ssh.code.roche.com:skynet/ricofile.vim.git
+[submodule "vim/.config/.vim/pack/writing/start/surround.vim"]
+	path = vim/.vim/pack/writing/start/surround.vim
+	url = https://github.com/tpope/vim-surround.git
+[submodule "vim/.config/.vim/pack/writing/start/tablemode.vim"]
+	path = vim/.vim/pack/writing/start/tablemode.vim
+	url = https://github.com/dhruvasagar/vim-table-mode.git
+[submodule "vim/.config/.vim/pack/writing/start/abolish"]
+	path = vim/.vim/pack/writing/start/abolish
+	url = https://github.com/tpope/vim-abolish.git

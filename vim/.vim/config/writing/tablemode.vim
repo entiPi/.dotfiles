@@ -1,0 +1,1 @@
+../../pack/writing/start/tablemode.vim/t/config/options.vim
