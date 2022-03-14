@@ -1,0 +1,28 @@
+## general
+#
+# vim swap files
+*.swp
+
+# python bytecode files
+*.pyc
+__pycache__/
+
+
+## tmux
+
+# state-store of resurrect plugin
+/tmux/.tmux/resurrect
+
+
+## vim
+
+# undodir content
+/vim/.config/.vim/undodir/*
+!/vim/.config/.vim/undodir/.gitkeep
+
+# fucking history file
+/vim/.config/.vim/.netrwhist
+
+# spell checking files
+/vim/.config/.vim/spell/*
+!/vim/.config/.vim/spell/.gitkeep
