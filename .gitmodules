@@ -67,9 +67,6 @@
 [submodule "vim/.config/.vim/pack/general/start/localvimrc"]
 	path = vim/.vim/pack/general/start/localvimrc
 	url = https://github.com/vim-scripts/localvimrc
-[submodule "vim/.config/.vim/pack/rust/start/rust.vim"]
-	path = vim/.vim/pack/rust/start/rust.vim
-	url = https://github.com/rust-lang/rust.vim
 [submodule "vim/.config/.vim/pack/general/start/vim-toml"]
 	path = vim/.vim/pack/general/start/vim-toml
 	url = https://github.com/cespare/vim-toml
