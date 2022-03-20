@@ -25,9 +25,6 @@
 [submodule "vim/.config/.vim/pack/general/start/nerdcommenter"]
 	path = vim/.vim/pack/general/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter
-[submodule "vim/.config/.vim/pack/programming/start/taglist.vim"]
-	path = vim/.vim/pack/programming/start/taglist.vim
-	url = https://github.com/vim-scripts/taglist.vim
 [submodule "vim/.config/.vim/pack/programming/start/YouCompleteMe"]
 	path = vim/.vim/pack/programming/start/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe
