@@ -96,6 +96,10 @@ alias ll='ls -halF --time-style=long-iso'
 alias la='ls -Ah --time-style=long-iso'
 #}}}
 
+## ipython{{{
+export IPYTHONDIR=~/.config/ipython
+#}}}
+
 ## completion{{{
 
 if ! shopt -oq posix; then
