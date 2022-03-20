@@ -40,9 +40,6 @@
 [submodule "vim/.config/.vim/pack/general/start/vim-fugitive"]
 	path = vim/.vim/pack/general/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule "vim/.config/.vim/pack/general/start/webapi-vim"]
-	path = vim/.vim/pack/general/start/webapi-vim
-	url = https://github.com/mattn/webapi-vim
 [submodule "vim/.config/.vim/pack/general/start/gist-vim"]
 	path = vim/.vim/pack/general/start/gist-vim
 	url = https://github.com/mattn/gist-vim
