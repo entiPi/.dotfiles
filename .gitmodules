@@ -49,9 +49,6 @@
 [submodule "vim/.config/.vim/pack/programming/start/plantuml-syntax"]
 	path = vim/.vim/pack/programming/start/plantuml-syntax
 	url = https://github.com/aklt/plantuml-syntax
-[submodule "vim/.config/.vim/pack/general/start/fzf.vim"]
-	path = vim/.vim/pack/general/start/fzf.vim
-	url = https://github.com/junegunn/fzf.vim
 [submodule "vim/.config/.vim/pack/python/start/vim-isort"]
 	path = vim/.vim/pack/python/start/vim-isort
 	url = https://github.com/fisadev/vim-isort
