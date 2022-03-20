@@ -84,7 +84,7 @@ if [ -x /usr/bin/dircolors ]; then
     else
         eval "$(dircolors -b)"
     fi
-    alias ls='ls --color=auto'
+    alias ls='ls -p --color=auto'
 
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
