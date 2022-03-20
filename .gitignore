@@ -26,3 +26,9 @@ __pycache__/
 # spell checking files
 /vim/.config/.vim/spell/*
 !/vim/.config/.vim/spell/.gitkeep
+
+
+## git
+
+# gitconfig in repo requires local changes (e.g. email)
+/git/.gitconfig

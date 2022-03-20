@@ -1,0 +1,23 @@
+[user]
+	name = Thomas Meister
+	email = XXX
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[mergetool]
+	prompt = false
+	keepBackup = false
+[push]
+	default = simple
+[alias]
+	cleanmerged = "!git branch --merged master | grep  -v 'master' | xargs -n1 git branch -d"
+	swapstages = "!git-swapstages"
+	suri = "!git submodule update --recursive --init"
+[rebase]
+	autoSquash = true
+[pull]
+	rebase = true
