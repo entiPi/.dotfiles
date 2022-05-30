@@ -82,3 +82,7 @@
 [submodule "vim/.config/.vim/pack/writing/start/abolish"]
 	path = vim/.vim/pack/writing/start/abolish
 	url = https://github.com/tpope/vim-abolish.git
+[submodule "vim/.vim/pack/general/start/vim-obsession"]
+	path = vim/.vim/pack/general/start/vim-obsession
+	url = https://github.com/tpope/vim-obsession.git
+	branch = master
