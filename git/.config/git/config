@@ -21,3 +21,5 @@
 	autoSquash = true
 [pull]
 	rebase = true
+[core]
+	editor = nvim
