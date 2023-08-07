@@ -166,4 +166,4 @@ bar {
 }
 
 exec nm-applet
-exec setxkbmap ch -option caps:escape
+exec_always --no-startup-id "setxkbmap ch -option 'caps:escape'"
