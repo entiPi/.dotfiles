@@ -119,3 +119,9 @@ fi
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
+
+## asdf{{{
+## dependency installer for various languages
+. /opt/asdf/asdf.sh
+. /opt/asdf/completions/asdf.bash
+#}}}
