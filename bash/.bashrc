@@ -1,6 +1,10 @@
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
+## XDG settings{{{
+export XDG_CONFIG_HOME=$HOME/.config/
+#}}}
+
 ## bash history{{{
 
 HISTCONTROL=ignoreboth
