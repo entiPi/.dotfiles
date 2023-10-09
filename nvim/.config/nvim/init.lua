@@ -58,3 +58,5 @@ vim.api.nvim_create_autocmd({ "BufWritePre" }, {
   command = [[%s/\s\+$//e]],
 })
 
+-- filetypes
+vim.filetype.add({extension = {bats = "bash"}})
