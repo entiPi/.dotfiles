@@ -1,0 +1,31 @@
+import = ["/home/meistet3/.config/alacritty/themes/nightfox.toml"]
+
+[font]
+size = 10
+
+[font.bold]
+family = "Hack"
+style = "Bold"
+
+[font.bold_italic]
+family = "Hack"
+style = "Bold Italic"
+
+[font.italic]
+family = "Hack"
+style = "Italic"
+
+[font.normal]
+family = "Hack"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Plus"
+mods = "Control|Shift"
+
+[selection]
+save_to_clipboard = true
+
+[window]
+decorations = "none"
