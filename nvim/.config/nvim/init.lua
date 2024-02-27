@@ -23,6 +23,11 @@ vim.o.cinoptions = table.concat({
 vim.o.cindent = true
 
 
+-- comments autoformatting
+vim.opt.formatoptions:remove('r') -- comment leader on 'Enter'
+vim.opt.formatoptions:remove('o') -- comment leader on 'o'
+
+
 -- encoding
 vim.o.encoding = 'utf-8'
 
