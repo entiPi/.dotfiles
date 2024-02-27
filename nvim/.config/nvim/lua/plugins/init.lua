@@ -21,4 +21,5 @@ require('lazy').setup({
     require('plugins.lsp'),
     require('plugins.efm'),
     require('plugins.comment'),
+    require('plugins.fetch'),
 })
