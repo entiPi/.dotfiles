@@ -15,7 +15,7 @@ vim.o.expandtab = true    -- Hitting Tab in insert mode will produce spaces
 vim.o.tabstop = 4         -- Number of spaces to use in editing mode.
 vim.o.shiftwidth = 2      -- Number of spaces to use for each step of (auto)indent.
 
-vim.o.cinoptions = table.concat({ 
+vim.o.cinoptions = table.concat({
    '>2s', -- two shiftwidth for "normal" indent (after open-brace, if, for, while, etc.)
    '(s',  -- one shiftwidth after opening parenthesis and newline
    'N-2s', -- no indention for namespace-blocks
