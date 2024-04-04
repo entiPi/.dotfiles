@@ -62,6 +62,11 @@ vim.api.nvim_create_autocmd({ "BufWritePre" }, {
   pattern = { "*" },
   command = [[%s/\s\+$//e]],
 })
+-- close scratch buffer after completion
+vim.api.nvim_create_autocmd({ "CompleteDone" }, {
+  pattern = { "*" },
+  command = [[pclose]],
+})
 
 -- filetypes
 vim.filetype.add({extension = {bats = "bash"}})
