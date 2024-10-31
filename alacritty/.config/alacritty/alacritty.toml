@@ -1,3 +1,4 @@
+[general]
 import = ["/home/meistet3/.config/alacritty/themes/nightfox.toml"]
 
 [font]
