@@ -20,6 +20,7 @@ require('lazy').setup({
     require('plugins.treesitter'),
     require('plugins.lsp'),
     require('plugins.efm'),
+    require('plugins.lemminx'),
     require('plugins.comment'),
     require('plugins.fetch'),
 })
