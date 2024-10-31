@@ -8,7 +8,7 @@ return {
       require('telescope').setup{
          defaults = {
             path_display = {'truncate'},
-            sorting_strategy = 'descending'
+            sorting_strategy = 'descending',
          },
       }
    end

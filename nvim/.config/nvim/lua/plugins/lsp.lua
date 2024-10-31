@@ -13,8 +13,8 @@ return {
                     vim.fs.find(
                         {
                             'compile_commands.json',
-                        }, 
-                        { 
+                        },
+                        {
                             upwards = true,
                             path = path_,
                         }
